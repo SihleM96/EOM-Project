@@ -1,0 +1,692 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Styling body */
+
+body {
+	height: 100%;
+	line-height: 20px;
+	background-color: #ffffff;
+	color: #6b6051;
+	letter-spacing: 2px;
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* Styling header */
+
+header {
+	background: whitesmoke;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 5px 50px;
+}
+
+
+/* Styling Logo on Nav */
+
+.logo {
+	margin-right: auto;
+	cursor: pointer;
+	order: 0;
+}
+
+
+/* Nav Style */
+
+.nav-area {
+	list-style: none;
+}
+
+.nav-area li {
+	display: inline-flex;
+	justify-content: space-between;
+	padding: 0 30px;
+}
+
+.nav-area li a {
+	color: #6b6051;
+}
+
+.nav-area li a:hover {
+	border: 1px solid #6b6051;
+	background: whitesmoke;
+	padding: 2px 8px;
+}
+
+
+/* Underline Style */
+
+hr {
+	background-color: rgb(160, 146, 146);
+	width: 100%;
+}
+
+
+/* All cover images styling */
+
+.banner-image {
+	background-image: url(img/welcome.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.banner-image2 {
+	background-image: url(img/about.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.banner-image3 {
+	background-image: url(img/contact.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.banner-image2 {
+	background-image: url(img/about.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+/* All cover/banner headings and text styling */
+
+.banner-text {
+	text-align: center;
+}
+
+
+.banner-text h2 {
+	color: white;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	font-size: 40px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	word-spacing: normal;
+	padding-top: 120px;
+}
+
+.banner-text p {
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	padding: 40px 30px;
+	display: inline block;
+	font-size: 16px;
+}
+
+.banner-text a {
+	text-decoration: none;
+	color: white;
+	padding: 15px 30px;
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 150px;
+	border: 1px solid white;
+}
+
+.banner-text a:hover {
+	background-color: rgb(160, 146, 146);
+	color: white;
+}
+
+
+/* All content headings and text styling */
+
+.content-heading {
+	text-align: center;
+	padding: 2%;
+	flex: 1%;
+}
+
+.content-heading hr {
+	width: 18%;
+	margin: auto;
+}
+
+.content-heading h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	font-weight: lighter;
+	margin-top: 50px;
+	color: #826726;
+}
+
+.content-heading p {
+	text-align: center;
+	padding: 2%;
+	flex: 1%;
+	
+}
+
+
+/* Discover products button styling */
+
+.product-button a {
+	text-decoration: none;
+	color: #826726;
+	padding: 15px 30px;
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 80px;
+	border: 1px solid rgb(160, 146, 146);
+}
+
+.product-button a:hover {
+	background-color: rgb(160, 146, 146);
+	color: white;
+}
+
+
+/* Cards styling */
+
+.main-content {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 8px 20px;
+	padding: 1%;
+	background-color: none;
+}
+
+.main-content1 {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 8px 20px;
+	padding: 1%;
+	background-color: none;
+}
+
+.main-content2 {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 8px 20px;
+	padding: 1%;
+	background-color: none;
+}
+
+.main1 {
+	text-align: center;
+	padding: 1%;
+	flex: 1%;
+	margin: 5px 20px;
+	border: 1px solid rgb(160, 146, 146);
+}
+
+.main1:hover {
+	border: 3px solid rgb(160, 146, 146);
+}
+
+
+/* Card 1 styling */
+
+.main1 h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: #826726;
+	margin: 1%;
+}
+
+.main1 p {
+	margin-top: 20px;
+}
+
+.main1 a {
+	text-decoration: none;
+	color: #826726;
+	padding: 15px 30px;
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid rgb(160, 146, 146);
+}
+
+.main1 a:hover {
+	background-color: rgb(160, 146, 146);
+	color: white;
+}
+
+
+/* Card 2 styling */
+
+.main2 {
+	text-align: center;
+	padding: 1%;
+	flex: 1%;
+	border: 1px solid rgb(160, 146, 146);
+	margin: 5px 20px;
+}
+
+.main2:hover {
+	border: 3px solid rgb(160, 146, 146);
+}
+
+.main2 h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: #826726;
+}
+
+.main2 p {
+	margin-top: 20px;
+}
+
+.main2 a {
+	text-decoration: none;
+	color: #826726;
+	padding: 15px 30px;
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid rgb(160, 146, 146);
+}
+
+.main2 a:hover {
+	background-color: rgb(160, 146, 146);
+	color: white;
+}
+
+
+/* Card 3 styling */
+
+.main3 {
+	text-align: center;
+	padding: 1%;
+	flex: 1%;
+	border: 1px solid rgb(160, 146, 146);
+	margin: 5px 20px;
+}
+
+.main3:hover {
+	border: 3px solid rgb(160, 146, 146);
+}
+
+.main3 h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: #826726;
+}
+
+.main3 p {
+	margin-top: 20px;
+}
+
+.main3 a {
+	text-decoration: none;
+	color: #826726;
+	padding: 15px 30px;
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid rgb(160, 146, 146);
+}
+
+.main3 a:hover {
+	background-color: rgb(160, 146, 146);
+	color: white;
+}
+
+
+/*Shop Page Card Styling*/
+
+.tea-headline {
+	margin-top: 5%;
+	text-align: center;
+}
+
+.tea-headline h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: #826726;
+	margin: 1%;
+	text-align: center;
+}
+
+.tea-headline hr {
+	background-color: rgb(160, 146, 146);
+	width: 30%;
+	margin: auto;
+}
+
+
+/* about us /faq styling */
+
+.product-button {
+	text-align: center;
+}
+
+.about-faq-container {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 8px 20px;
+	padding: 1%;
+	background-color: none;
+}
+
+.faq-contact-page {
+	margin-left: 50px;
+}
+
+.faq-contact-page h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: #826726;
+	margin-top: 50px;
+}
+
+.faq-contact-page p {
+	margin-bottom: 20px;
+}
+
+.about {
+	text-align: left;
+	padding: 1%;
+	flex: 1%;
+	border: none;
+	margin: 5px 10px;
+}
+
+.about:hover {
+	border: 1px solid rgb(160, 146, 146);
+}
+
+.about hr {
+	width: 18%;
+	margin: auto;
+}
+
+.about h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: #826726;
+	margin: 1%;
+}
+
+.about a {
+	text-decoration: none;
+	color: #826726;
+	padding: 15px 30px;
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 80px;
+	border: 1px solid rgb(160, 146, 146);
+}
+
+.about a:hover {
+	background-color: rgb(160, 146, 146);
+	color: white;
+}
+
+.faq {
+	text-align: left;
+	padding: 1%;
+	flex: 1%;
+	border: none;
+	margin: 5px 10px;
+}
+
+.faq:hover {
+	border: 1px solid rgb(160, 146, 146);
+}
+
+.faq h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: #826726;
+	margin: 1%;
+}
+
+.faq hr {
+	width: 18%;
+	margin: auto;
+}
+
+.faq a {
+	text-decoration: none;
+	color: #826726;
+	padding: 15px 30px;
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 80px;
+	border: 1px solid rgb(160, 146, 146);
+}
+
+.faq a:hover {
+	background-color: rgb(160, 146, 146);
+	color: white;
+}
+
+.img-who {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.img-director {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+
+/*team container styling*/
+
+.team-container {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 8px 20px;
+	padding: 1%;
+}
+
+.team {
+	text-align: center;
+	padding: 1%;
+	flex: 1%;
+	margin: 5px 20px;
+}
+
+.team h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: #826726;
+	margin: 1%;
+}
+
+.team p {
+	margin-top: 20px;
+}
+
+.team:hover {
+	border: 1px solid rgb(160, 146, 146);
+}
+
+
+/* Contact form stylings*/
+
+.contact-items {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.contact {
+	background-color: rgb(160, 146, 146);
+	background-size: cover;
+	background-position: center;
+	padding: 80px 0px;
+	position: relative;
+	z-index: 1;
+}
+
+.contact-items h3 {
+	color: rgb(31, 18, 18);
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	font-weight: lighter;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+.contact-items input[type="text"] {
+	border: 10px;
+	margin-bottom: 15px;
+	padding: 15px;
+	width: 50%;
+}
+
+.contact-items textarea {
+	border: 10px;
+	height: 150px;
+	padding: 15px;
+	width: 50%;
+}
+
+.contact-items a {
+	color: #ffffff;
+	display: inline-block;
+	background-color: rgb(31, 18, 18);
+	margin-top: 25px;
+	padding: 15px 80px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+}
+
+.contact-items a:hover {
+	color: #ffffff;
+	background-color: #6b6051;
+}
+
+
+/* Contact styling page */
+
+.contact2 {
+	background-color: none;
+	background-size: cover;
+	background-position: center;
+	padding: 80px 50px;
+	position: relative;
+	z-index: 1;
+}
+
+.contact-items2 h3 {
+	color: #826726;
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	font-weight: lighter;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+.contact-items2 input[type="text"] {
+	border: 10px;
+	margin-bottom: 15px;
+	padding: 15px;
+	width: 60%;
+	background-color: rgb(160, 146, 146);
+}
+
+.contact-items2 textarea {
+	border: 10px;
+	height: 150px;
+	padding: 15px;
+	width: 60%;
+	background-color: rgb(160, 146, 146);
+}
+
+.contact-items2 a {
+	color: #ffffff;
+	display: inline-block;
+	background-color: rgb(31, 18, 18);
+	margin-top: 25px;
+	padding: 15px 80px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+}
+
+.contact-items2 a:hover {
+	color: #ffffff;
+	background-color: #6b6051;
+}
+
+
+/* Footer stylings*/
+
+.footer {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 200px;
+	background-color: rgb(31, 18, 18);
+	text-align: center;
+	list-style: none;
+}
+
+.footer li {
+	display: inline-flex;
+	justify-content: space-between;
+	padding: 50px 30px;
+}
+
+.footer li a {
+	color: #ffffff;
+}
+
+.footer li a:hover {
+	border: 1px solid #ffffff;
+	padding: 2px 8px;
+}
